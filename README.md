@@ -22,3 +22,4 @@ Shery.js – Mouse follower & hover effects
 
 Responsive Design – Fully optimized for various screen sizes
 
+Pixel-perfect, scroll-smooth, and full of life — that’s Clauaskee_Recreation_2025. Fork it, remix it, and bring your own vision to life! 🔥🎨
