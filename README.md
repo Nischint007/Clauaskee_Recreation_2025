@@ -1,4 +1,5 @@
 Live Website Preview: https://nischint007.github.io/Clauaskee_Recreation_2025/
+
 🌀 GSAP – Animation Engine
 Used GSAP (GreenSock Animation Platform) to create smooth and sequenced animations triggered by scroll. All text entrances, image reveals, and transitions are timed using GSAP for a polished, studio-level feel.
 
