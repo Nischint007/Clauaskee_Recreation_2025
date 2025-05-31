@@ -22,3 +22,5 @@ Shery.js – Mouse follower & hover effects
 
 Responsive Design – Fully optimized for various screen sizes
 
+License
+This project rocks the MIT License — freedom to learn, tinker, and build your own magic.
