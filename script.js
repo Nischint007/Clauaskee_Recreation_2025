@@ -116,24 +116,24 @@ tl.from("#video-container", {
       trigger: "#page3",
       scroller: "body",
       start: "top 70%",
-      end: "top 5%",
-      scrub: 1,
+      end: "top 40%",
+      scrub: 2.5,
       once: true
     }
   });
 
   gsap.from("#page4-heading-a, #page4-heading-b", {
-    y: 80,
+    y: 120,
     opacity: 0,
     stagger: 0.28,
-    ease: "slow.out",
+    ease: "power4.out",
     duration: 1.5,
     scrollTrigger: {
       trigger: "#page4",
       scroller: "body",
-      start: "top 30%",
-      end: "top 50%",
-      scrub: 2.5,
+      start: "top 70%",
+      end: "top 5%",
+      scrub: 2,
       once: false
     }
   });
@@ -166,71 +166,71 @@ mm.add("(min-width: 800px)", () => {              // GSAP Desktop Code
   img1.addEventListener("mouseenter", () => {
     gsap.to(img1, {
       rotate: "2.5deg",
-      duration: 0.5,
-      ease: "slow.out"
+      duration: 0.75,
+      ease: "back.out"
     })
   });
   img1.addEventListener("mouseleave", () => {
     gsap.to(img1, {
       rotate: "0deg",
-      duration: 0.5,
-      ease: "slow.out"
+      duration: 0.75,
+      ease: "back.out"
     })
   });
   img2.addEventListener("mouseenter", () => {
     gsap.to(img2, {
       rotate: "-2.5deg",
-      duration: 0.5,
-      ease: "slow.out"
+      duration: 0.75,
+      ease: "back.out"
     })
   });
   img2.addEventListener("mouseleave", () => {
     gsap.to(img2, {
       rotate: "0deg",
-      duration: 0.5,
-      ease: "slow.out"
+      duration: 0.75,
+      ease: "back.out"
     })
   });
   img3.addEventListener("mouseenter", () => {
     gsap.to(img3, {
       rotate: "2.5deg",
-      duration: 0.5,
-      ease: "slow.out"
+      duration: 0.75,
+      ease: "back.out"
     })
   });
   img3.addEventListener("mouseleave", () => {
     gsap.to(img3, {
       rotate: "0deg",
-      duration: 0.5,
-      ease: "slow.out"
+      duration: 0.75,
+      ease: "back.out"
     })
   });
   img4.addEventListener("mouseenter", () => {
     gsap.to(img4, {
       rotate: "-2.5deg",
-      duration: 0.5,
-      ease: "slow.out"
+      duration: 0.75,
+      ease: "back.out"
     })
   });
   img4.addEventListener("mouseleave", () => {
     gsap.to(img4, {
       rotate: "0deg",
-      duration: 0.5,
-      ease: "slow.out"
+      duration: 0.75,
+      ease: "back.out"
     })
   });
   img5.addEventListener("mouseenter", () => {
     gsap.to(img5, {
       rotate: "2.5deg",
-      duration: 0.5,
-      ease: "slow.out"
+      duration: 0.75,
+      ease: "back.out"
     })
   });
   img5.addEventListener("mouseleave", () => {
     gsap.to(img5, {
       rotate: "0deg",
-      duration: 0.5,
-      ease: "slow.out"
+      duration: 0.75,
+      ease: "back.out"
     })
   });
   Shery.hoverWithMediaCircle("#page3-heading-a, #page3-heading-b", {
