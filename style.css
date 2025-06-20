@@ -167,6 +167,7 @@ nav {
     transform: translate(-50%, -50%);
     font-family: myFont-2;
     white-space: nowrap;
+    pointer-events: none;
 }
 
 #heading2 {
@@ -178,6 +179,7 @@ nav {
     transform: translate(-50%, -50%);
     font-family: myFont-2;
     white-space: nowrap;
+    pointer-events: none;
 }
 
 #heading3 {
@@ -188,6 +190,7 @@ nav {
     right: 10%;
     transform: translateY(-50%);
     font-family: myFont-2;
+    pointer-events: none;
 }
 
 #heading4 {
@@ -198,6 +201,7 @@ nav {
     right: 6.5%;
     transform: translateY(-50%);
     font-family: myFont-2;
+    pointer-events: none;
 }
 
 #heading5 {
@@ -208,6 +212,7 @@ nav {
     right: 7.5%;
     transform: translateY(-50%);
     font-family: myFont-2;
+    pointer-events: none;
 }
 
 #heading5 a {
@@ -223,6 +228,7 @@ nav {
     right: 6%;
     transform: translateY(-50%);
     font-family: myFont-2;
+    pointer-events: none;
 }
 
 #heading6 a {
@@ -238,6 +244,7 @@ nav {
     right: 8%;
     transform: translateY(-50%);
     font-family: myFont-2;
+    pointer-events: none;
 }
 
 #heading7 a {
@@ -273,6 +280,7 @@ nav {
     left: 3%;
     transform: translateY(-50%);
     font-size: 2.5vw;
+    pointer-events: none;
 }
 
 #container-1 {
@@ -287,6 +295,7 @@ nav {
     top: 65%;
     left: 3%;
     transform: translateY(-50%);
+    pointer-events: none;
 }
 
 #container-1 p {
@@ -303,6 +312,7 @@ nav {
     left: 28%;
     transform: translateY(-50%);
     font-size: 2.5vw;
+    pointer-events: none;
 }
 
 #container-2 {
@@ -317,6 +327,7 @@ nav {
     top: 76%;
     left: 28%;
     transform: translateY(-50%);
+    pointer-events: none;
 }
 
 #container-2 p {
@@ -353,6 +364,7 @@ nav {
     color: #1A1A1A;
     font-family: myFont-2;
     font-size: 1.5vw;
+    pointer-events: none;
 }
 
 #container-3 a {
@@ -374,6 +386,7 @@ nav {
     left: 84%;
     transform: translateY(-50%);
     font-size: 2.5vw;
+    pointer-events: none;
 }
 
 #container-4 {
@@ -388,6 +401,7 @@ nav {
     top: 67%;
     left: 84%;
     transform: translateY(-50%);
+    pointer-events: none;
 }
 
 #container-4 p {
@@ -469,11 +483,13 @@ nav {
     right: 10%;
     transform: translateY(-50%);
     font-size: 2vw;
+    pointer-events: none;
 }
 
 #page4-heading-1 a {
     color: #1A1A1A;
     text-decoration: 4px underline seagreen;
+    pointer-events: all;
 }
 
 #page4-heading-2 {
@@ -484,6 +500,7 @@ nav {
     left: 4%;
     transform: translateY(-50%);
     font-size: 2vw;
+    pointer-events: none;
 }
 
 #page4-heading-3 {
@@ -494,6 +511,7 @@ nav {
     left: 4%;
     transform: translateY(-50%);
     font-size: 2vw;
+    pointer-events: none;
 }
 
 #page4-heading-4 {
@@ -504,6 +522,7 @@ nav {
     right: 35%;
     transform: translateY(-50%);
     font-size: 2vw;
+    pointer-events: none;
 }
 
 #page4-heading-5 {
@@ -514,6 +533,7 @@ nav {
     right: 33.5%;
     transform: translateY(-50%);
     font-size: 2vw;
+    pointer-events: none;
 }
 
 #page4-heading-6 {
@@ -524,6 +544,7 @@ nav {
     left: 4%;
     transform: translateY(-50%);
     font-size: 2vw;
+    pointer-events: none;
 }
 
 #page4-heading-7 {
@@ -534,6 +555,7 @@ nav {
     left: 4%;
     transform: translateY(-50%);
     font-size: 2vw;
+    pointer-events: none;
 }
 
 #page4-heading-8 {
@@ -544,6 +566,7 @@ nav {
     right: 28%;
     transform: translateY(-50%);
     font-size: 2vw;
+    pointer-events: none;
 }
 
 #page4-heading-9 {
@@ -554,6 +577,7 @@ nav {
     right: 30.5%;
     transform: translateY(-50%);
     font-size: 2vw;
+    pointer-events: none;
 }
 
 #page5-heading-1 {
@@ -564,6 +588,7 @@ nav {
     left: 4%;
     transform: translateY(-50%);
     font-size: 20vw;
+    pointer-events: none;
 }
 
 #page5-heading-2 {
@@ -574,6 +599,7 @@ nav {
     left: 4%;
     transform: translateY(-50%);
     font-size: 20vw;
+    pointer-events: none;
 }
 
 #page5-nav {
@@ -597,11 +623,13 @@ nav {
 #page5-heading-3 {
     color: #FFFFFF;
     font-family: myFont-2;
-    font-size: 3vw;
+    font-size: 2vw;
     position: absolute;
     top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
+    pointer-events: none;
+    white-space: nowrap;
 }
 
 #box {
@@ -883,6 +911,7 @@ nav {
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 5vw;
+    pointer-events: none;
     }
 
 #page4-heading-3 {
@@ -893,6 +922,7 @@ nav {
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 5vw;
+    pointer-events: none;
     }
 
 #page4-heading-4 {
@@ -904,6 +934,7 @@ nav {
     transform: translate(-50%,-50%);
     font-size: 5vw;
     white-space: nowrap; 
+    pointer-events: none;
     }
     #page4-heading-5 {
     color: #1A1A1A;
@@ -913,6 +944,7 @@ nav {
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 5vw;
+    pointer-events: none;
     }
 
 #page4-heading-6 {
@@ -924,6 +956,7 @@ nav {
     transform: translate(-50%,-50%);
     font-size: 5vw;
     white-space: nowrap;
+    pointer-events: none;
     }
 
 #page4-heading-7 {
@@ -935,6 +968,7 @@ nav {
     transform: translate(-50%,-50%);
     font-size: 5vw;
     white-space: nowrap;
+    pointer-events: none;
     }
 
 #page4-heading-8 {
@@ -952,6 +986,7 @@ nav {
     left: 5%;
     transform: translateY(-50%);
     font-size: 25vw;
+    pointer-events: none;
     }
 
 #page5-heading-2 {
@@ -961,7 +996,8 @@ nav {
     top: 35%;
     left: 5%;
     transform: translateY(-50%);
-    font-size: 25vw; 
+    font-size: 25vw;
+    pointer-events: none; 
     }
     #page5-nav {
     display: flex;
@@ -990,6 +1026,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
+    pointer-events: none;
     }
     .loader {
     position: fixed;
