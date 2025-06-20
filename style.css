@@ -730,6 +730,7 @@ nav {
         transform: translate(-50%, -50%);
         font-family: myFont-2;
         white-space: nowrap;
+        pointer-events: none;
     }
 
     #heading2 {
@@ -741,6 +742,7 @@ nav {
         transform: translate(-50%, -50%);
         font-family: myFont-2;
         white-space: nowrap;
+        pointer-events: none;
     }
 
     #box {
@@ -770,6 +772,7 @@ nav {
         transform: translate(-50%, -50%);
         font-family: myFont-2;
         font-weight: bold;
+        pointer-events: none;
     }
 
     #heading4 {
@@ -781,6 +784,7 @@ nav {
         transform: translate(-50%, -50%);
         font-family: myFont-2;
         font-weight: bold;
+        pointer-events: none;
     }
 
     #heading5 {

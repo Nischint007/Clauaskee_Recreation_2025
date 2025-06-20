@@ -60,7 +60,7 @@ gsap.to("#heading2", {
   }
 });
 
-if (window.innerWidth > 768) {
+if (window.innerWidth > 1024) {
   Shery.mouseFollower({
     skew: false,
     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
@@ -96,7 +96,8 @@ tl.from("nav", {
 
 tl.from("#main-heading", {
   opacity: 0,
-  skewX: -20,
+  y: 90,
+  skewX: -30,
   duration: 0.7,
   ease: "slow.out"
 }, "anim");
@@ -107,17 +108,17 @@ tl.from("#video-container", {
 }, "anim");
 
   gsap.from("#page3-heading-a, #page3-heading-b", {
-    y: 80,
+    y: 60,
     opacity: 0,
     stagger: 0.28,
-    ease: "slow.out",
+    ease: "power2.out",
     duration: 1.5,
     scrollTrigger: {
       trigger: "#page3",
       scroller: "body",
       start: "top 70%",
-      end: "top 40%",
-      scrub: 2.5,
+      end: "top 20%",
+      scrub: 2,
       once: true
     }
   });
@@ -132,7 +133,7 @@ tl.from("#video-container", {
       trigger: "#page4",
       scroller: "body",
       start: "top 70%",
-      end: "top 5%",
+      end: "top 10%",
       scrub: 2,
       once: false
     }
