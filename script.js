@@ -1,11 +1,12 @@
 const lenis = new Lenis();
 
-function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
-}
+lenis.on('scroll', ScrollTrigger.update);
 
-requestAnimationFrame(raf);
+gsap.ticker.add((time) => {
+  lenis.raf(time * 1000);
+});
+
+gsap.ticker.lagSmoothing(0);
 
 let rotation = { angle: 0 };
 
@@ -158,11 +159,11 @@ tl.from("#video-container", {
 let mm = gsap.matchMedia();
 
 mm.add("(min-width: 800px)", () => {              // GSAP Desktop Code
-  const img1 = document.querySelector(".Image-1");
-  const img2 = document.querySelector(".Image-2");
-  const img3 = document.querySelector(".Image-3");
-  const img4 = document.querySelector(".Image-4");
-  const img5 = document.querySelector(".Image-5");
+  const img1 = document.querySelector("#Image-1");
+  const img2 = document.querySelector("#Image-2");
+  const img3 = document.querySelector("#Image-3");
+  const img4 = document.querySelector("#Image-4");
+  const img5 = document.querySelector("#Image-5");
 
   img1.addEventListener("mouseenter", () => {
     gsap.to(img1, {
