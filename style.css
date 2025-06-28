@@ -997,7 +997,7 @@ nav {
     color: #FFFFFF;
     font-family: myFont;
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 5%;
     transform: translateY(-50%);
     font-size: 25vw;
@@ -1024,9 +1024,9 @@ nav {
 #page5-heading-3 {
     color: #FFFFFF;
     font-family: myFont-2;
-    font-size: 6vw;
+    font-size: 4vw;
     position: absolute;
-    top: 93%;
+    top: 91%;
     left: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
