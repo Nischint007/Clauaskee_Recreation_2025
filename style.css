@@ -439,11 +439,7 @@ nav {
     transform: translateY(-50%);
     will-change: transform;
 }
-#Image-1 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 #Image-2 {
     width: 40vw;
     height: 50vh;
@@ -453,11 +449,7 @@ nav {
     transform: translateY(-50%);
     will-change: transform;
 }
-#Image-2 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 #Image-3 {
     width: 35vw;
     height: 70vh;
@@ -467,11 +459,7 @@ nav {
     transform: translateY(-50%);
     will-change: transform;
 }
-#Image-3 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 #Image-4 {
     width: 45vw;
     height: 55vh;
@@ -481,11 +469,7 @@ nav {
     transform: translateY(-50%);
     will-change: transform;
 }
-#Image-4 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 #Image-5 {
     width: 40vw;
     height: 55vh;
@@ -494,11 +478,6 @@ nav {
     left: 4%;
     transform: translateY(-50%);
     will-change: transform;
-}
-#Image-5 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 }
 #page4-heading-1 {
     color: #1A1A1A;
@@ -878,7 +857,7 @@ nav {
     transform: translateY(-50%);
     font-size: 20vw;
     }
-    .Image-1 {
+    #Image-1 {
     width: 90vw;
     height: 35vh;
     position: absolute;
@@ -887,7 +866,7 @@ nav {
     transform: translate(-50%,-50%);
     }
 
-.Image-2 {
+#Image-2 {
     width: 90vw;
     height: 35vh;
     position: absolute;
@@ -896,7 +875,7 @@ nav {
     transform: translate(-50%,-50%);
     }
 
-.Image-3 {
+#Image-3 {
     width: 90vw;
     height: 35vh;
     position: absolute;
@@ -905,7 +884,7 @@ nav {
     transform: translate(-50%,-50%);
     }
 
-.Image-4 {
+#Image-4 {
     width: 90vw;
     height: 35vh;
     position: absolute;
@@ -914,7 +893,7 @@ nav {
     transform: translate(-50%,-50%);
     }
 
-.Image-5 {
+#Image-5 {
     display: none;
     }
     #page4-heading-1 {
