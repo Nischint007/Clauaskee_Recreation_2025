@@ -1,4 +1,7 @@
-const lenis = new Lenis();
+const lenis = new Lenis({
+  smooth: true,
+  smoothTouch: true
+});
 
 lenis.on('scroll', ScrollTrigger.update);
 
