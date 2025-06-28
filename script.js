@@ -1,8 +1,6 @@
 const lenis = new Lenis({
   smooth: true,
   smoothTouch: true,
-  touchMultiplier: 0.85,
-  lerp: 0.05
 });
 
 lenis.on('scroll', ScrollTrigger.update);
