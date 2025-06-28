@@ -21,8 +21,6 @@ body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-      touch-action: pan-y;
-  -webkit-overflow-scrolling: touch;
 }
 
 ::-webkit-scrollbar {
@@ -32,6 +30,8 @@ body {
 body {
     overflow-x: hidden;
     background-color: #8E93FF;
+    touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
 }
 
 #page1 {
