@@ -723,15 +723,36 @@ nav {
         z-index: 99;
     }
 
-    .scroll-indicator {
-        display: none;
-    }
+.scroll-indicator {
+    position: fixed;
+    bottom: 6%;
+    left: 3%;
+    width: 100px;
+    height: 100px;
+    background-color: #47F654;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    pointer-events: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.circle-text {
+    width: 85px;
+    height: 85px;
+    transform-box: fill-box;
+    transform-origin: center;
+    will-change: transform;
+    font-family: myFont-2;
+}
 
     #heading1 {
         color: #1A1A1A;
         font-size: 9vw;
         position: absolute;
-        top: 9%;
+        top: 10%;
         left: 120%;
         transform: translate(-50%, -50%);
         font-family: myFont-2;
@@ -743,7 +764,7 @@ nav {
         color: #1A1A1A;
         font-size: 9vw;
         position: absolute;
-        top: 18%;
+        top: 16%;
         right: 40%;
         transform: translate(-50%, -50%);
         font-family: myFont-2;
@@ -778,35 +799,38 @@ nav {
         transform: translate(-50%, -50%);
         font-family: myFont-2;
         font-weight: bold;
+        width: 80%;
         pointer-events: none;
     }
 
     #heading4 {
         color: #1A1A1A;
-        font-size: 3.5vw;
+        font-size: 4vw;
         position: absolute;
-        top: 60%;
+        top: 57%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: myFont-2;
         font-weight: bold;
+        width: 80%;
         pointer-events: none;
     }
 
     #heading5 {
         color: #1A1A1A;
-        font-size: 3.5vw;
+        font-size: 4vw;
         position: absolute;
-        top: 85%;
+        top: 82%;
         left: 50%;
         transform: translate(-50%, -50%);
         font-family: myFont-2;
+        width: 80%;
         font-weight: bold;
     }
 
     #heading5 a {
         color: #1A1A1A;
-        text-decoration: 1px underline #1A1A1A;
+        text-decoration: 2px underline #1A1A1A;
     }
 
     #heading6 {
@@ -818,16 +842,17 @@ nav {
         font-size: 3.5vw;
         position: absolute;
         top: 95%;
-        left: 40%;
+        left: 50%;
         transform: translate(-50%, -50%);
         font-family: myFont-2;
         font-weight: bold;
+        width: 80%;
         white-space: nowrap;
     }
 
     #heading7 a {
         color: #1A1A1A;
-        text-decoration: 4px underline #1A1A1A;
+        text-decoration: 2px underline #1A1A1A;
     }
 
     #page3 {
