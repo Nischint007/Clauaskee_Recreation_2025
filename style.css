@@ -1073,7 +1073,8 @@ nav {
     touch-action: none;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 40px 30px;
+    padding-right: 8vw;
+    padding-bottom: 10vw;
     font-size: 18vw;
     z-index: 9999;
     font-family: myFont;
